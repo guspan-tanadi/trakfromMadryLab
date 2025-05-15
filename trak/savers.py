@@ -45,7 +45,7 @@ class AbstractSaver(ABC):
         TRAKer class has the same hyperparameters (metadata) as the one
         specified in the save directory. Next, this method loads any existing
         computed results / intermediate values in the save directory. Last, it
-        initalizes the self.current_store attributes which will be later
+        initializes the self.current_store attributes which will be later
         populated with data for the "current" model ID of the TRAKer instance.
 
         Args:
@@ -271,7 +271,7 @@ class MmapSaver(AbstractSaver):
         """This method
         1) checks if the model ID already exists in the save dir
         2) if yes, it raises an error since model IDs must be unique
-        3) if not, it creates a metadata file for it and initalizes store mmaps
+        3) if not, it creates a metadata file for it and initializes store mmaps
 
         Args:
             model_id (int):
