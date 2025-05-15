@@ -337,7 +337,7 @@ saves the scores to disk in memory-mapped file (:code:`.mmap` format).
 We can visualize some of the top scoring :code:`TRAK` images from the
 :code:`scores` array we just computed:
 
-.. image:: assets/trak_scores_quickstart.png
+.. image:: ../assets/trak_scores_quickstart.png
    :alt: Top scoring TRAK images
 
 
