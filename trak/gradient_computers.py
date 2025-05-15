@@ -111,7 +111,7 @@ class FunctionalGradientComputer(AbstractGradientComputer):
         self.logger = logging.getLogger("GradientComputer")
 
     def load_model_params(self, model) -> None:
-        """Given a a torch.nn.Module model, inits/updates the (functional)
+        """Given a torch.nn.Module model, inits/updates the (functional)
         weights and buffers. See https://pytorch.org/docs/stable/func.html
         for more details on :code:`torch.func`'s functional models.
 
