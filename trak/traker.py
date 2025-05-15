@@ -81,9 +81,9 @@ class TRAKer:
                 Size of the train set that TRAK is featurizing
             save_dir (str, optional):
                 Directory to save final TRAK scores, intermediate results, and
-                metadata. Defaults to :code:'./trak_results'.
+                metadata. Defaults to :code:`./trak_results`.
             load_from_save_dir (bool, optional):
-                If True, the :class`.TRAKer` instance will attempt to load
+                If True, the :class:`.TRAKer` instance will attempt to load
                 existing metadata from save_dir. May lead to I/O issues if
                 multiple TRAKer instances ran in parallel have this flag set to
                 True. See the SLURM tutorial for more details.
